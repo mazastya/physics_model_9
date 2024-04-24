@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модуляция амплитуды</title>
+</head>
+<body>
+    <h1>Модуляция амплитуды</h1>
+    <form action="/amplitude_modulation" method="post">
+        <label for="carrier_freq">Несущая частота (Гц):</label><br>
+        <input type="text" id="carrier_freq" name="carrier_freq" value="100"><br><br>
+        <label for="signal_freq">Информационнная частота (Гц):</label><br>
+        <input type="text" id="signal_freq" name="signal_freq" value="20"><br><br>
+        <label for="modulation_index">Индекс модуляции:</label><br>
+        <input type="text" id="modulation_index" name="modulation_index" value="0.5"><br><br>
+        <label for="duration">Продолжительность (секунды):</label><br>
+        <input type="text" id="duration" name="duration" value="1"><br><br>
+        <label for="sampling_rate">Частота дискретизации (Гц):</label><br>
+        <input type="text" id="sampling_rate" name="sampling_rate" value="1000"><br><br>
+        <input type="submit" value="Моделировать">
+    </form>
+</body>
+</html>
